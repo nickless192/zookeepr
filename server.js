@@ -1,5 +1,4 @@
 const express = require('express');
-const { addAbortSignal } = require('stream');
 const {animals} = require('./data/animals.json');
 
 const PORT = process.env.PORT || 3001
